@@ -1,0 +1,47 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    border: 2px solid black;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+button {
+    height: 60px;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.line {
+    width: 100%;
+    max-width: 400px;
+    border-bottom: 2px solid black;
+    margin: 20px 0;
+    border-color: white;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.808);
+}
